@@ -53,16 +53,17 @@ a:hover {
     background-color: #fff;
 }
 
-#title {
-    color: white;
-    height: 400px;
+#title { 
+    height: 400px; 
+    overflow: hidden; 
+    position: relative; 
 }
 
 .title-desc {
     padding-top: 20%;
 }
 
-#iphone6dog {
+#cute-dog {
     width: 70%;
     height: 90%;
     border-radius: 10%;
@@ -70,22 +71,22 @@ a:hover {
 }
 
 #about-us {
-position: relative;
-color: #383838;
+    color: #383838;
 }
 
 #features {
-    position: relative;
     color: #383838;
 }
 
 .icon-awesome {
     color: #FAF8F1;
-    padding-bottom: 10%;
+    margin: 0% auto 10%;
+    font-size: 3rem;
 }
 
 .icon-awesome:hover {
     color: #383838;
+    transform: scale(1.2);
 }
 
 .testimonial-text{
@@ -123,11 +124,10 @@ width: 80%;
 }
 
 .footer-button {
-    color: black;
+    color: #383838;
     font-size: 1.5rem;
     border: none;
 }
-
 
 .footer-button:hover {
     color: #ef8172;
@@ -140,15 +140,16 @@ width: 80%;
 
 @media (max-width: 1024px) {
 
-#title .container-fluid{
+#title {
     text-align: center;
+    height: auto;
 }
 
 .footer-button {
     margin: 30px auto;
 }
 
-#iphone6dog {
+#cute-dog {
     transform: rotate(0);
     width: 60%;
     border-radius: 15%;
